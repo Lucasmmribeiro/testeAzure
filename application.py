@@ -6,4 +6,4 @@ app = Flask(__name__)
 def hello():
     a = 20
     b = "teste"    
-    return b
+    return "i am a hero"
