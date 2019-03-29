@@ -8,4 +8,4 @@ def hello():
 
 @app.route("/teste/")
 def hello2():
-    return "FUCKIT!"
+    return (5 + 5)
