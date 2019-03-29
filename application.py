@@ -17,9 +17,9 @@ tasks = [
     }
 ]
 
-@app.route('/todo/api/v1.0/tasks', methods=['GET'])
+@app.route('/tasks', methods=['GET'])
 def get_tasks():
-    return tasks
+    return "igotit" 
 
 if __name__ == '__main__':
     app.run(debug=True)
