@@ -9,3 +9,9 @@ def hello():
 @app.route("/teste/")
 def hello2():
     return "FUCKIT!"
+
+@app.route("/capic/")
+def hello4():
+    a = 20
+    b = 40
+    return a+b    
