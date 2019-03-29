@@ -5,6 +5,4 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     a = 20
-    b = "teste"
-    pyodbc.connect()
     return "hellolaoaksdword"
